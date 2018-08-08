@@ -2,36 +2,29 @@
     box-sizing: border-box;
 }
 
-#first_para{
-    background-color: #919191;
-    border: 3px solid white;
+h1 {
+    text-align: center;
 }
 
-#second_para {
-    background-color: #919191;
-    border: 3px solid white;
-}
-
-#third_para {
-    background-color: #919191;
-    border: 3px solid white;
-}
-
-.container div {
+.spacing {
+    width: 95%;
+    border: 1px solid black;
+    padding: 20px;
     position: relative;
-}
-
-.container div p:not(:first-child){
     padding-top: 70px;
+    background-color: #919191;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
-.container div p:first-child {
+.container section h2 {
     position: absolute;
     top: 0;
     right: 0;
     padding: 20px;
-    margin-right: 10px;
-    background-color: white;
+    margin-top: 0;
+    background-color: yellowgreen;
+    border: 1px solid black;
 }
 
 
